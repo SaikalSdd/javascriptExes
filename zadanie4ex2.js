@@ -13,10 +13,11 @@ var x = document.getElementsByClassName("element");
 x[5].style.color = "green";
 
 //second way:
-  var myCollection = document.getElementsByTagName("p");
+  var myCollection = document.getElementsByClassName("element");
   var i;
   for (i = 0; i < 3; i++) {
     myCollection[i].style.color = "red";
   }
   for (i = 3; i < 6; i++) {
-    myCollection[i].style.color = "yellow";
+    myCollection[i].style.color = "green"
+  };
