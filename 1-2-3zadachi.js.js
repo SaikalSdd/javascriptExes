@@ -1,3 +1,4 @@
+//Задача #1
 //for (var i = 0; i < 10; i++) {
 //    setTimeout(function() {
 //        console.log(i);
@@ -11,6 +12,8 @@ The problem is in that, we didnt set timeout value:
 setTimeout(функция, 10000); 
 Функция сработает после 10000миллисекунд.
 
+
+Задача #2
 //Write a JavaScript program to display the current day and time in the following format.  
 //Sample Output : 
 //Today is : Friday. 
